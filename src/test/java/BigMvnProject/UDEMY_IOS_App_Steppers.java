@@ -23,12 +23,14 @@ public class UDEMY_IOS_App_Steppers {
 	@BeforeTest
 	public void launchAppium() throws MalformedURLException{
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6");
-		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, System.getProperty("PlatformName"));
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, System.getProperty("PlatformVersion"));
-		cap.setCapability(MobileCapabilityType.APP, new File("./UI-Catalog-App.zip").getAbsolutePath());
+		cap.setCapability("deviceName", "iPhone Simulator");
+		cap.setCapability("platformName", System.getProperty("PlatformName"));
+		cap.setCapability("platformVersion", System.getProperty("PlatformVersion"));
+		cap.setCapability("app", new File("./UI-Catalog-App.zip").getAbsolutePath());
+		cap.setCapability("appiumVersion", "1.5.3");
+		cap.setCapability("browserName", "");
 		
-		driver = new IOSDriver(new URL("http://127.0.0.1:4730/wd/hub"), cap);
+		driver = new IOSDriver(new URL("http://wibmo333:3b73f163-740f-476d-8887-71d0269b59a8@ondemand.saucelabs.com:80/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
 	}
 	
