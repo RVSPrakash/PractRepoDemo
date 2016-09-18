@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101622" started-at="2016-09-18T09:14:32Z" finished-at="2016-09-18T09:16:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101622" started-at="2016-09-18T09:14:32Z" finished-at="2016-09-18T09:16:13Z">
+      <class name="BigMvnProject.UDEMY_IOS_App_Steppers">
+        <test-method status="PASS" signature="launchAppium()[pri:0, instance:BigMvnProject.UDEMY_IOS_App_Steppers@6a41eaa2]" name="launchAppium" is-config="true" duration-ms="93119" started-at="2016-09-18T14:44:32Z" finished-at="2016-09-18T14:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppium -->
+        <test-method status="PASS" signature="segmentedControl()[pri:0, instance:BigMvnProject.UDEMY_IOS_App_Steppers@6a41eaa2]" name="segmentedControl" duration-ms="8286" started-at="2016-09-18T14:46:05Z" finished-at="2016-09-18T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segmentedControl -->
+        <test-method status="PASS" signature="stopAppium()[pri:0, instance:BigMvnProject.UDEMY_IOS_App_Steppers@6a41eaa2]" name="stopAppium" is-config="true" duration-ms="104" started-at="2016-09-18T14:46:13Z" finished-at="2016-09-18T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- BigMvnProject.UDEMY_IOS_App_Steppers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
