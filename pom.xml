@@ -71,8 +71,8 @@
     	<artifactId>maven-surefire-plugin</artifactId>
     	<version>2.19.1</version>
     	<configuration>
-    		<PlatformName>${platformName}</PlatformName>
-    		<PlatformVersion>${platformVersion}</PlatformVersion>
+    		<PlatformName>${PlatformName}</PlatformName>
+    		<PlatformVersion>${PlatformVersion}</PlatformVersion>
     		<testFailureIgnore>true</testFailureIgnore>
     		<suiteXmlFiles>
     			<suiteXmlFiles>testng.xml</suiteXmlFiles>
